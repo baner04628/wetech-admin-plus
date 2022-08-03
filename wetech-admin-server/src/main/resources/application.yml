@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: wetech-admin
+  profiles:
+    active: @spring.application.proflies@ # 设置激活的环境
+  main:
+      lazy-initialization: true
+mybatis: # mybatis 配置
+  configuration:
+    map-underscore-to-camel-case: true
+
+password: #shiro
+  algorithmName: md5
+  hashIterations: 2

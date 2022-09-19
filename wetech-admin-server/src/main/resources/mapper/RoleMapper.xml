@@ -3,7 +3,7 @@
 <mapper namespace="tech.wetech.adminplus.mapper.RoleMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="tech.wetech.adminplus.entity.SysRole">
+    <resultMap id="BaseResultMap" type="tech.wetech.adminplus.model.entity.Role">
         <id column="id" property="id" />
         <result column="role" property="role" />
         <result column="name" property="name" />

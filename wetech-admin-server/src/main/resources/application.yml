@@ -2,7 +2,7 @@ spring:
   application:
     name: wetech-admin
   profiles:
-    active: @spring.application.proflies@ # 设置激活的环境
+    active: @spring.application.profiles@ # 设置激活的环境
   main:
       lazy-initialization: true
 mybatis: # mybatis 配置

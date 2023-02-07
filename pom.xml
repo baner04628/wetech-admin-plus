@@ -33,7 +33,7 @@
         <profile>
             <id>env-development</id>
             <properties>
-                <spring.application.proflies>development</spring.application.proflies>
+                <spring.application.profiles>development</spring.application.profiles>
             </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -42,7 +42,7 @@
         <profile>
             <id>env-production</id>
             <properties>
-                <spring.application.proflies>production</spring.application.proflies>
+                <spring.application.profiles>production</spring.application.profiles>
             </properties>
         </profile>
     </profiles>

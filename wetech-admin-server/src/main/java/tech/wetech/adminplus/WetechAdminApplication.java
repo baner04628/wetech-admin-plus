@@ -8,7 +8,7 @@ import springfox.documentation.oas.annotations.EnableOpenApi;
 /**
  * @author cjbi
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"tech.wetech.adminplus"})
 @EnableOpenApi
 @MapperScan(basePackages = "tech.wetech.adminplus.mapper")
 public class WetechAdminApplication {
